@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap");
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+}
+
+.button-container {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 7px;
+  box-shadow: inset 0px 20px 4px -19px rgba(255, 255, 255, 0.6);
+}
+button {
+  cursor: pointer;
+  height: 75px;
+  width: 120px;
+  border: 2px solid black;
+  border-radius: 7px;
+  font-family: Barlow, sans-serif;
+  font-size: 25px;
+  color: white;
+  text-shadow: 0 2px 5px black;
+  background: linear-gradient(to top, #676767, #555555);
+  box-shadow: inset 0px 20px 4px -19px rgba(255, 255, 255, 0.6),
+    0 6px 5px rgba(0, 0, 0, 0.3);
+}
+button:hover {
+  background: linear-gradient(to bottom, #676767, #555555);
+}
+button:active {
+  transform: translateY(3px);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}

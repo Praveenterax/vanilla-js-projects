@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap");
+body {
+  margin: 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #252525;
+}
+
+.button-container {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 7px;
+  -webkit-box-shadow: inset 0px 20px 4px -19px rgba(255, 255, 255, 0.6);
+          box-shadow: inset 0px 20px 4px -19px rgba(255, 255, 255, 0.6);
+}
+
+button {
+  cursor: pointer;
+  height: 75px;
+  width: 120px;
+  border: 2px solid black;
+  border-radius: 7px;
+  font-family: Barlow, sans-serif;
+  font-size: 25px;
+  color: white;
+  text-shadow: 0 2px 5px black;
+  background: -webkit-gradient(linear, left bottom, left top, from(#676767), to(#555555));
+  background: linear-gradient(to top, #676767, #555555);
+  -webkit-box-shadow: inset 0px 20px 4px -19px rgba(255, 255, 255, 0.6), 0 6px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0px 20px 4px -19px rgba(255, 255, 255, 0.6), 0 6px 5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#676767), to(#555555));
+  background: linear-gradient(to bottom, #676767, #555555);
+}
+
+button:active {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+/*# sourceMappingURL=style.css.map */

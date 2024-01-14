@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light and Dark Mode</title>
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Dark and Light mode Toggle -->
+    <div class="theme-switch-wrapper">
+      <span id="toggle-icon">
+        <span class="toggle-text">Light Mode</span>
+        <i class="fas fa-sun"></i>
+      </span>
+      <label class="theme-switch">
+        <input type="checkbox" />
+        <div class="slider round"></div>
+      </label>
+    </div>
+    <!-- Navigation -->
+    <nav id="nav">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <!-- Home Section -->
+    <section id="home">
+      <div class="title-group">
+        <h1>Custom Title Here</h1>
+        <h2>Welcome to the Website!</h2>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h1>Undraw Illustrations!</h1>
+      <div class="about-container">
+        <div class="image-container">
+          <h2>Programming</h2>
+          <img
+            src="./imgs/undraw_programming_re_kg9v_light.svg"
+            alt="Programming"
+            id="image1"
+          />
+        </div>
+        <div class="image-container">
+          <h2>Authenticate</h2>
+          <img
+            src="./imgs/undraw_authentication_re_svpt_light.svg"
+            alt="Authenticate"
+            id="image2"
+          />
+        </div>
+        <div class="image-container">
+          <h2>Mobile Web</h2>
+          <img
+            src="./imgs/undraw_mobile_web_-2-g8b_light.svg"
+            alt="Mobile Web"
+            id="image3"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h1>Buttons</h1>
+      <div class="buttons">
+        <button class="primary">Primary</button>
+        <button class="secondary">Secondary</button>
+        <button class="primary" disabled>Disabled</button>
+        <button class="outline">OutLine</button>
+        <button class="secondary outline">Alt Outline</button>
+        <button class="outline" disabled>Disabled</button>
+      </div>
+      <div class="text-box" id="text-box">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias,
+          cum culpa? Aliquid dicta laboriosam reiciendis! Iure, nobis expedita
+          cumque aut magni inventore aliquid corrupti repellendus eum odit,
+          iste, ut porro!
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="social-icons">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook"></i>
+      </div>
+    </section>
+
+    <!-- script -->
+    <script src="script.js"></script>
+  </body>
+</html>
